@@ -4,12 +4,15 @@
 In this project, we apply unsupervised machine learning techniques to identify segments of a population based on demographics data. We then examine the distribution of the population among the identified segments for a specific subset of the population to identify over- and under-represented demographic groups as compared with the entire population. The demographic groups over-represented in the population subset are deemed as of high target value for an advertisement campaign.
 
 First dimensionality of the demographics data is reduced using Principal Component Analysis (1st PCA component in shown below):
+
 ![](resources/pca1.png?raw=true)
 
 Next, we split population into clusters using K-Nearest Neighbors algorithm with elbow method of selecting optimal number of clusters and compare clustering of general and target populations:
+
 ![](resources/clusters.png?raw=true)
 
-Finally, we examine principal components for the clusters with largest discrepancies between populations for insights about the groups:
+Finally, we examine principal components for the clusters with largest discrepancies between populations for insights about the groups:  
+
 ![](resources/top_pca_cluster2.png?raw=true)
 
 ## Results
